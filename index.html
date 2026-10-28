@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0d12">
+  <meta name="description" content="Sergei — QA Engineer / Automation QA Engineer. Web, mobile, API testing, Python, Pytest and Playwright.">
+  <title>Sergei — QA Engineer</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Sergei home"><span class="brand-mark">S<span>.</span></span><span class="brand-label">QA / ENGINEERING</span></a>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#home" data-i18n="nav.home">Home</a>
+      <a href="#experience" data-i18n="nav.experience">Experience</a>
+      <a href="#skills" data-i18n="nav.skills">Skills</a>
+      <a href="#projects" data-i18n="nav.projects">Projects</a>
+      <a href="#about" data-i18n="nav.about">About</a>
+    </nav>
+    <div class="top-actions"><div class="lang-switch" role="group" aria-label="Language"><button class="lang active" data-lang="en">EN</button><span>/</span><button class="lang" data-lang="ru">RU</button></div><button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button></div>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="status-dot"></span><span data-i18n="hero.status">OPEN TO OPPORTUNITIES · REMOTE</span></div>
+        <h1><span data-i18n="hero.hello">Hi, I'm</span><br><span class="name">Sergei<span class="accent">.</span></span></h1>
+        <p class="hero-role" data-i18n="hero.role">QA Engineer <span class="slash">/</span> Automation QA Engineer</p>
+        <p class="hero-description" data-i18n="hero.description">I test web and mobile products, validate APIs, and build automated checks that help teams ship with confidence.</p>
+        <p class="hero-aside" data-i18n="hero.aside">Curious by default. Skeptical by profession.</p>
+        <div class="hero-buttons"><a class="button button-primary" href="#projects"><span data-i18n="hero.ctaProjects">Explore projects</span><span aria-hidden="true">↘</span></a><a class="button button-ghost" href="#contact" data-i18n="hero.ctaContact">Get in touch ↗</a></div>
+        <div class="hero-meta"><span><span class="meta-icon">⌘</span> Python · Pytest · Playwright</span><span class="meta-divider"></span><span data-i18n="hero.meta">Web · Mobile · API</span></div>
+      </div>
+      <div class="hero-visual reveal" aria-label="Decorative testing console">
+        <div class="visual-orbit orbit-one"></div><div class="visual-orbit orbit-two"></div>
+        <div class="visual-cross cross-one">+</div><div class="visual-cross cross-two">+</div>
+        <div class="console-card">
+          <div class="console-top"><div class="window-dots"><i></i><i></i><i></i></div><span>quality_check.py</span><span class="console-live"><i></i> LIVE</span></div>
+          <div class="console-code"><div><span class="line-no">01</span><span class="code-purple">class</span> <span class="code-green">QualityGate</span><span>:</span></div><div><span class="line-no">02</span>  <span class="code-purple">def</span> <span class="code-blue">validate</span>(self, build):</div><div><span class="line-no">03</span>    checks = [</div><div><span class="line-no">04</span>      <span class="code-orange">"api_contracts"</span>,</div><div><span class="line-no">05</span>      <span class="code-orange">"critical_flows"</span>,</div><div><span class="line-no">06</span>      <span class="code-orange">"regression_suite"</span></div><div><span class="line-no">07</span>    ]</div><div><span class="line-no">08</span>    <span class="code-purple">return</span> run(checks, build)</div></div>
+          <div class="console-result"><span class="check-mark">✓</span><div><strong data-i18n="visual.result">Quality gate passed</strong><small data-i18n="visual.resultSub">Ready for the next check</small></div><span class="result-time">00:02.48</span></div>
+        </div>
+        <div class="floating-tag tag-api"><span class="tag-symbol">↔</span><span><b>API</b><small>REST checks</small></span></div>
+        <div class="floating-tag tag-auto"><span class="tag-symbol">⌘</span><span><b>Automation</b><small>Pytest · Playwright</small></span></div>
+        <div class="visual-caption">FIG. 01 <span data-i18n="visual.caption">— A little less guesswork.</span></div>
+      </div>
+      <a class="scroll-cue" href="#experience"><span class="scroll-line"></span><span data-i18n="hero.scroll">SCROLL TO EXPLORE</span></a>
+    </section>
+
+    <section class="section-wrap section-block" id="experience">
+      <div class="section-heading reveal"><div><p class="section-index">01 / <span data-i18n="sections.experienceIndex">BACKGROUND</span></p><h2 data-i18n="sections.experience">Experience & approach</h2></div><p class="section-note" data-i18n="sections.experienceNote">Quality is a process, not just a final check.</p></div>
+      <div class="experience-layout">
+        <div class="experience-intro reveal"><div class="big-number">05<span>+</span></div><p data-i18n="experience.years">years in software testing</p><div class="thin-rule"></div><p class="muted" data-i18n="experience.intro">Experience across web and mobile applications, APIs, integrations, and release quality.</p></div>
+        <div class="timeline reveal">
+          <article class="timeline-item"><div class="timeline-marker"><span></span></div><div class="timeline-content"><div class="timeline-top"><h3 data-i18n="experience.item1.title">Web & mobile product testing</h3><span class="timeline-type" data-i18n="experience.item1.type">CORE EXPERIENCE</span></div><p data-i18n="experience.item1.text">Functional, regression, integration, and negative testing for web interfaces and native Android/iOS apps. Focus on user flows, UI behavior, and release readiness.</p><div class="chips"><span>Web</span><span>Android</span><span>iOS</span><span>Regression</span></div></div></article>
+          <article class="timeline-item"><div class="timeline-marker"><span></span></div><div class="timeline-content"><div class="timeline-top"><h3 data-i18n="experience.item2.title">API & integration testing</h3><span class="timeline-type" data-i18n="experience.item2.type">BACKEND</span></div><p data-i18n="experience.item2.text">REST API validation, data checks, integration behavior, log analysis, and collaboration with developers and analysts to isolate defects.</p><div class="chips"><span>REST API</span><span>Postman</span><span>SQL</span><span>DevTools</span></div></div></article>
+          <article class="timeline-item"><div class="timeline-marker"><span></span></div><div class="timeline-content"><div class="timeline-top"><h3 data-i18n="experience.item3.title">Test automation & process improvement</h3><span class="timeline-type" data-i18n="experience.item3.type">AUTOMATION</span></div><p data-i18n="experience.item3.text">Building and maintaining automated checks with Python, Pytest, and Playwright; improving checklists, test coverage, and repeatable QA workflows.</p><div class="chips"><span>Python</span><span>Pytest</span><span>Playwright</span><span>GitLab CI/CD</span></div></div></article>
+        </div>
+      </div>
+      <p class="section-footnote" data-i18n="experience.disclaimer">A summary of areas of experience, not a complete employment history. Detailed roles and dates can be added from the CV.</p>
+    </section>
+
+    <section class="section-wrap section-block skills-section" id="skills">
+      <div class="section-heading reveal"><div><p class="section-index">02 / TOOLKIT</p><h2 data-i18n="sections.skills">Tools & skills</h2></div><p class="section-note" data-i18n="sections.skillsNote">The right tool for the right layer.</p></div>
+      <div class="skill-grid">
+        <article class="skill-card reveal"><div class="skill-card-top"><span class="skill-number">01</span><span class="skill-icon">⌘</span></div><h3 data-i18n="skills.automation">Automation</h3><p data-i18n="skills.automationText">Automated UI and API checks, test structure, maintainability.</p><div class="skill-tags"><span>Python</span><span>Pytest</span><span>Playwright</span><span>Selenium</span><span>unittest</span></div></article>
+        <article class="skill-card reveal"><div class="skill-card-top"><span class="skill-number">02</span><span class="skill-icon">↔</span></div><h3 data-i18n="skills.api">API & backend</h3><p data-i18n="skills.apiText">Service contracts, data validation, integrations, debugging.</p><div class="skill-tags"><span>REST API</span><span>Postman</span><span>Swagger</span><span>SQL</span><span>JavaScript in Postman</span></div></article>
+        <article class="skill-card reveal"><div class="skill-card-top"><span class="skill-number">03</span><span class="skill-icon">▣</span></div><h3 data-i18n="skills.mobile">Web & mobile</h3><p data-i18n="skills.mobileText">Cross-platform behavior, UI checks, device and browser debugging.</p><div class="skill-tags"><span>Web</span><span>Android</span><span>iOS</span><span>DevTools</span><span>Charles</span><span>Proxyman</span></div></article>
+        <article class="skill-card reveal"><div class="skill-card-top"><span class="skill-number">04</span><span class="skill-icon">⌁</span></div><h3 data-i18n="skills.process">QA process</h3><p data-i18n="skills.processText">Test design, bug reports, release checks, teamwork, and CI workflows.</p><div class="skill-tags"><span>Jira</span><span>Confluence</span><span>GitLab</span><span>CI/CD</span><span>Scrum</span><span>JMeter</span></div></article>
+      </div>
+      <div class="method-strip reveal"><span class="method-label" data-i18n="skills.methodsLabel">TESTING METHODS</span><div><span>Functional</span><span>Integration</span><span>Regression</span><span>Negative</span><span>Exploratory</span><span>Load testing</span></div></div>
+    </section>
+
+    <section class="section-wrap section-block projects-section" id="projects">
+      <div class="section-heading reveal"><div><p class="section-index">03 / SELECTED WORK</p><h2 data-i18n="sections.projects">Projects</h2></div><p class="section-note" data-i18n="sections.projectsNote">Practical work, real use cases.</p></div>
+      <div class="project-list">
+        <article class="project-card reveal"><div class="project-visual viled-visual"><div class="visual-label">E-COMMERCE / QA</div><div class="mini-browser"><div class="mini-browser-bar"><i></i><i></i><i></i><span>viled.kz</span></div><div class="mini-shop"><div class="mini-shop-title">VILED <small>COLLECTION</small></div><div class="mini-products"><div class="mini-product p-one"><span></span></div><div class="mini-product p-two"><span></span></div><div class="mini-product p-three"><span></span></div></div><div class="mini-shop-bottom">QUALITY IS IN THE DETAILS</div></div></div><span class="visual-stamp">01</span></div><div class="project-content"><div class="project-kicker"><span data-i18n="projects.viled.kicker">WEB · IOS · ANDROID</span><span class="project-status"><i></i><span data-i18n="projects.caseStudy">CASE STUDY</span></span></div><h3>VILED — E-commerce</h3><p data-i18n="projects.viled.text">Testing a luxury clothing and jewelry online store across web and mobile apps. Coverage included authorization, customer information, loyalty program, cart, favorites, product attributes, and integration behavior.</p><div class="project-tags"><span>Manual QA</span><span>API</span><span>Webhooks</span><span>Automation</span><span>Playwright</span></div><div class="project-bottom"><span data-i18n="projects.viled.role">Role: QA testing & automation</span><span class="project-arrow">↗</span></div></div></article>
+        <article class="project-card reveal"><div class="project-visual bot-visual"><div class="visual-label">LLM / PRODUCT EXPERIMENT</div><div class="bot-window"><div class="bot-window-head"><span class="bot-avatar">B.</span><div><b>BugAI</b><small>Bug report assistant</small></div><span class="bot-online"></span></div><div class="chat-bubble user-bubble" data-i18n="projects.bot.prompt">The checkout button does nothing</div><div class="chat-bubble ai-bubble"><span class="ai-label">BUG REPORT · DRAFT</span><b data-i18n="projects.bot.generated">Checkout action does not respond</b><div class="skeleton-line"></div><div class="skeleton-line short"></div><span class="bubble-check">✓ <span data-i18n="projects.bot.structured">Structured fields</span></span></div></div><span class="visual-stamp">02</span></div><div class="project-content"><div class="project-kicker"><span data-i18n="projects.bot.kicker">TELEGRAM · GEMINI · GOOGLE SHEETS</span><span class="project-status"><i></i><span data-i18n="projects.prototype">PROTOTYPE</span></span></div><h3>BugAI — AI bug reports</h3><p data-i18n="projects.bot.text">A Telegram bot prototype using Gemini to help turn issue descriptions into structured bug reports. Includes Russian/English language handling and Google Sheets/Drive workflow experiments.</p><div class="project-tags"><span>LLM integration</span><span>Gemini</span><span>Telegram Bot</span><span>Google Sheets</span><span>Python</span></div><div class="project-bottom"><span data-i18n="projects.bot.role">Focus: output quality & workflow</span><span class="project-arrow">↗</span></div></div></article>
+        <article class="project-card project-card-compact reveal"><div class="compact-icon">{ }</div><div class="project-content"><div class="project-kicker"><span data-i18n="projects.api.kicker">AUTOMATION · API</span><span class="project-status"><i></i><span data-i18n="projects.ongoing">ONGOING PRACTICE</span></span></div><h3 data-i18n="projects.api.title">API automation suite</h3><p data-i18n="projects.api.text">Python-based API checks and a transition toward a structured Pytest setup, with an emphasis on readable assertions, negative scenarios, and reusable test code.</p><div class="project-tags"><span>Python</span><span>Pytest</span><span>Requests</span><span>REST API</span></div></div><div class="compact-index">03</div></article>
+      </div>
+      <p class="section-footnote" data-i18n="projects.note">Project descriptions are intentionally high-level. Add public repository links, screenshots, or sanitized examples when ready.</p>
+    </section>
+
+    <section class="section-wrap section-block about-section" id="about">
+      <div class="section-heading reveal"><div><p class="section-index">04 / THE PERSON BEHIND THE TESTS</p><h2 data-i18n="sections.about">A bit about me</h2></div></div>
+      <div class="about-grid"><div class="about-quote reveal"><span class="quote-mark">“</span><p data-i18n="about.quote">Good testing is not about proving that software works. It is about learning where it might fail before users find out.</p><div class="quote-line"></div><span class="quote-caption" data-i18n="about.caption">MY QA MINDSET</span></div><div class="about-copy reveal"><p data-i18n="about.p1">I’m a QA Engineer with a background in web and mobile testing, API validation, and automation. I enjoy understanding how a product works end to end — from the user interface to service responses and integrations.</p><p data-i18n="about.p2">I use AI tools to support requirements analysis, generate edge cases, review test ideas, and experiment with LLM-powered workflows. I treat AI output as a hypothesis to verify, not as a source of truth.</p><p data-i18n="about.p3">I value clear communication, reproducible bug reports, and QA processes that help the whole team deliver a more reliable product.</p><div class="about-values"><span>Curiosity</span><span>Ownership</span><span>Clear evidence</span><span>Continuous learning</span></div></div></div>
+    </section>
+
+    <section class="contact-section" id="contact"><div class="section-wrap contact-inner reveal"><p class="section-index">05 / CONTACT</p><h2 data-i18n="contact.title">Let's make software<br><span>more reliable.</span></h2><p data-i18n="contact.text">Open to remote QA and automation opportunities, interesting products, and thoughtful collaboration.</p><div class="contact-actions"><a class="button button-primary" href="mailto:YOUR_EMAIL@example.com"><span data-i18n="contact.email">Email me</span><span>↗</span></a><a class="button button-ghost" href="https://github.com/YOUR_GITHUB" target="_blank" rel="noreferrer">GitHub ↗</a><a class="button button-ghost" href="https://t.me/YOUR_TELEGRAM" target="_blank" rel="noreferrer">Telegram ↗</a></div><p class="contact-hint" data-i18n="contact.hint">Remember to replace the placeholder contact links before publishing.</p></div></section>
+  </main>
+
+  <footer class="footer section-wrap"><a class="brand" href="#home"><span class="brand-mark">S<span>.</span></span><span class="brand-label">QA / ENGINEERING</span></a><span data-i18n="footer.made">Built with curiosity and a healthy suspicion of bugs.</span><span class="footer-year">© <span id="year"></span> Sergei</span></footer>
+  <button class="back-top" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
